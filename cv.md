@@ -24,4 +24,15 @@ function greet() {
 }  
 ```
 
+### Experience  
+Experience at electronics maintenance, IT system administration, programming in 1C, but not at FrontEnd  
 
+### Education  
+- University: Almaty University of Power Engineering and Telecommunications, Electronic engineer  
+- Courses:  
+    - [code-basics.com HTML](https://code-basics.com/ru/languages/html)  
+    - [code-basics.com CSS](https://code-basics.com/ru/languages/css)  
+    - [code-basics.com JS](https://code-basics.com/ru/languages/javascript)  
+
+### English  
+A1  
