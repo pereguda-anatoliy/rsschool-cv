@@ -10,4 +10,18 @@
 ### About Me  
 I want to be a Front-End Developer  
 
+### Skills  
+- HTML5 CSS3  
+- JavaScript Basic  
+- Git GitHub  
+- VS Code  
+- Photoshop Figma
+
+### Code Example  
+```js  
+function greet() {  
+  return "hello world!"  
+}  
+```
+
 
