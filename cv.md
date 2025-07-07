@@ -28,4 +28,8 @@ function greet() {
 }  
 ```  
 
+### Experience  
+
+Experience at electronics maintenance, IT system administration, programming in 1C, but not at FrontEnd  
+
 
