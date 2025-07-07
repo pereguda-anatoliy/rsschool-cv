@@ -11,3 +11,13 @@
 ### About Me  
 
 I want to be a Front-End Developer  
+
+### Skills  
+
+- HTML5 Basic 
+- CSS3 Basic  
+- JavaScript Basic  
+- Git GitHub Basic    
+- VS Code Basic    
+- Figma Basic  
+
