@@ -21,3 +21,11 @@ I want to be a Front-End Developer
 - VS Code Basic    
 - Figma Basic  
 
+### Code Example  
+```js  
+function greet() {  
+  return "hello world!"  
+}  
+```  
+
+
