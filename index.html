@@ -3,9 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link type="image/png" sizes="96x96" rel="icon" href="cat-small.png">
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
+    <title>CV</title>
 </head>
 <body>
+
+    <div class="wrapper">
+
+        <header class="header">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#about-me" class="nav-link">About Me</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code-example" class="nav-link">Code Example</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="prof" id="prof">
+                <h1>Anatoliy Pereguda</h1>
+                <p>Aspiring Front-End Developer</p>
+                <h2>It's me</h2>
+                <img src="cat-big-crop.png" alt="It's me" id="me">
+                <p>trying to climb over the fence of ignorance into the land of front-end development</p>
+                <hr>
+            </section>
+            <div class="container">
+                <section class="section contacts" id="contacts">
+                    <h2 class="section-title">Contacts</h2>
+                    <ul>
+                        <li class="li">Location: Almaty, Kazakhstan</li>
+                        <li class="li">Email: pereguda@gmail.com</li>
+                        <li class="li">Github: pereguda-anatoliy</li>
+                        <li class="li">Discod: pereguda(@pereguda-anatoliy)</li>        
+                    </ul>
+                    <hr>
+                </section>
+                <section class="section about-me" id="about-me">
+                    <h2 class="section-title">About Me</h2>
+                    <p>I want to become a Front-End Developer</p>
+                    <hr>
+                </section>
+                <section class="section skills" id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <ul>
+                        <li class="li">HTML5 Basic</li>
+                        <li class="li">CSS3 Basic</li>
+                        <li class="li">JavaScript Basic</li>
+                        <li class="li">Git Basic</li>
+                        <li class="li">VS Code Basic</li>
+                        <li class="li">Figma Basic</li>
+                    </ul>
+                    <p>My skills are all entry-level, but that's because I'm just starting out</p>
+                    <hr>
+                </section>
+                <section class="section code-example" id="code-example">
+                    <h2 class="section-title">Code Example</h2>
+                    <pre><code>
+function greet() {
+    return "hello world!";
+}
+                    </code></pre>
+                    <hr>
+                </section>
+                <section class="section experience" id="experience">
+                    <h2 class="section-title">Experience</h2>
+                    <ul>
+                        <li class="li">Experience at electronics maintenance, IT system administration, programming in 1C, but not at FrontEnd</li>
+                        <li class="li"><a href="https://pereguda-anatoliy.github.io/rsschool-cv/cv">First project: RSSchool CV</a></li>
+                    </ul>
+                    <hr>
+                </section>
+                <section class="section education" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <ul>
+                        <li class="li">Almaty University of Power Engineering and Telecommunications</li>
+                        <li class="li">Courses hexlet.io Learning English</li>
+                        <li class="li">Courses code-basics.com HTML</li>
+                        <li class="li">Courses code-basics.com CSS</li>
+                        <li class="li">Courses code-basics.com JS</li>
+                    </ul>
+                    <hr>
+                </section>
+                <section class="section english" id="english">
+                    <h2 class="section-title">English</h2>
+                    <p>My English level is testing somewhere between A1 and A2</p>
+                    <hr>
+                </section>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="cr">
+                <span>&#169;</span>
+                <span>2025</span>
+            </div>
+            <a class="me" href="https://github.com/pereguda-anatoliy">pereguda-anatoliy</a>
+            <a class="rs" href="https://rs.school/courses/javascript-ru"><img src="rs-school-logo.svg" alt="RS School Logo" class="rs-logo"></a>
+        </footer>
+
+    </div>
+    
 </body>
 </html>
