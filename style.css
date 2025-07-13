@@ -32,7 +32,6 @@ ul {
 
 body {
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
@@ -54,7 +53,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: top;
+    align-items:center;
     margin-top: 20px;
     padding: 10px;
     font-weight: 700;
@@ -100,7 +99,7 @@ hr {
 .footer {
     display: flex;
     justify-content: space-between;
-    align-items: top;
+    align-items: center;
     margin-top: 20px;
     padding: 10px;
     font-weight: 700;
