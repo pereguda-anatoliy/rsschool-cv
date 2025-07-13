@@ -60,3 +60,16 @@ body {
     font-weight: 700;
     gap: 20px;
 }
+
+.prof {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
