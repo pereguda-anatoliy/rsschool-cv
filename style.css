@@ -96,3 +96,17 @@ hr {
     border-width: 1px;
     border-color: #ba3200;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.rs-logo {
+    width: 80px;
+    height: auto;
+}
